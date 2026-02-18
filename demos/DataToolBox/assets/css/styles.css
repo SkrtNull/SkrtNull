@@ -1,0 +1,81 @@
+/* Reset total */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #0c1117; /* Color de fondo por si tarda en cargar Vanta */
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+#vanta-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    /* Esto hará que los puntos resalten y las líneas oscuras se suavicen */
+    filter: brightness(0.8) contrast(1.0); 
+}
+
+/* Contenedor de contenido: Debe estar por encima del fondo */
+.content {
+    position: relative;
+    z-index: 10; /* Por encima de Vanta */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    background: transparent; /* Importante para que se vea el fondo */
+}
+
+.code-box {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #ff3f81;
+    margin: 20px 0;
+    backdrop-filter: blur(5px);
+}
+
+button {
+    padding: 12px 24px;
+    background: #ff3f81;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #e63572;
+    transform: scale(1.05);
+}
+
+.code-box {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #ff3f81;
+    margin: 20px 0;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 20px rgba(255, 63, 129, 0.2); /* Brillo suave rosa */
+    animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 10px rgba(255, 63, 129, 0.2); }
+    50% { box-shadow: 0 0 25px rgba(255, 63, 129, 0.5); }
+    100% { box-shadow: 0 0 10px rgba(255, 63, 129, 0.2); }
+}
