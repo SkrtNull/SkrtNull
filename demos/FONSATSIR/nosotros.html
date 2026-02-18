@@ -1,0 +1,290 @@
+<?php
+require "Interfaces/UI/UI.html";
+?>
+
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <title>
+    FONSATSIR - Conocenos
+  </title>
+
+  <!--     iconos de pestañas    -->
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/logo1.jpg">
+  <link rel="icon" type="image/png" href="./assets/img/logo1.jpg">
+
+  <!--     Fonts and icons     -->
+  <link href="./assets/css/letra.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+
+  <!-- Nucleo Icons -->
+  <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link href="./assets/fontawesome/css/fontawesome.css" rel="stylesheet">
+  <link href="./assets/fontawesome/css/brands.css" rel="stylesheet">
+  <link href="./assets/fontawesome/css/solid.css" rel="stylesheet">
+
+  <!-- CSS Files -->
+
+  <link id="pagestyle" href="./assets/css/soft-design-system.css?v=1.0.9" rel="stylesheet" />
+
+  </head>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TZ45MNZYP2"></script>
+  <script async src="./controladores/analitics.js"></script>
+
+</head>
+
+<body class="about-us">
+  <!-- Navbar Transparent -->
+  <nav class="navbar navbar-expand-lg position-absolute top-0 z-index-3 w-100 shadow-none my-3  navbar-transparent ">
+    <div class="container">
+      <a class="navbar-brand m-0" href="index.html">
+        <img src="assets/img/logo1.jpg" height="40" alt="Specific size image">
+        <span class="ms-1 font-weight-bold text-white">FONSATSIR</span>
+      </a>
+      <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon mt-2">
+          <span class="navbar-toggler-bar bar1"></span>
+          <span class="navbar-toggler-bar bar2"></span>
+          <span class="navbar-toggler-bar bar3"></span>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-header-3">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+              Inicio
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              Nosotros
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">
+              Contacto
+            </a>
+          </li>
+        </ul>
+
+        <ul class="nav navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <button type="button" name="button" class="btn bg-white m-0">Ingresar</button>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+  <!-- -------- START HEADER 7 w/ text and video ------- -->
+  <header class="bg-gradient-dark">
+    <div class="page-header min-vh-100" style="background-image: url('assets/img/office-dark.jpg');">
+      <span class="mask bg-gradient-warning opacity-6"></span>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center mx-auto my-auto">
+            <h3 class="text-white">Deja tu automovil en manos profesionales</h3></br>
+            <p class="lead mb-4 text-white opacity-8">Estamos dedicados a brindar un servicio de calidad con respecto
+            al mantenimiento de los automóviles, ofrecemos precios accesibles y asegurando la revisión de cada unidad 
+            de transporte por personal capacitado en el aréa. ¡Que esperas para contactarnos!
+            </p>
+            <a class="btn bg-white text-dark" href="contacto.html">Contáctanos</a>
+          </div>
+        </div>
+      </div>
+      <div class="position-absolute w-100 z-index-1 bottom-0">
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 40" preserveAspectRatio="none" shape-rendering="auto">
+          <defs>
+            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+          </defs>
+          <g class="moving-waves">
+            <use xlink:href="#gentle-wave" x="48" y="-1" fill="rgba(255,255,255,0.40" />
+            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.35)" />
+            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.25)" />
+            <use xlink:href="#gentle-wave" x="48" y="8" fill="rgba(255,255,255,0.20)" />
+            <use xlink:href="#gentle-wave" x="48" y="13" fill="rgba(255,255,255,0.15)" />
+            <use xlink:href="#gentle-wave" x="48" y="16" fill="rgba(255,255,255,1" />
+          </g>
+        </svg>
+      </div>
+    </div>
+  </header>
+  <!-- -------- END HEADER 7 w/ text and video ------- -->
+  <!-- Section with four info areas left & one card right with image and waves -->
+  <!-- -------- START Features w/ title and 3 infos -------- -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col py-6">
+
+        <h3 class="text-gradient text-center text-primary mb-0 mt-2">¿Como comenzó todo?</h3>
+        <h3 class="text-center">Nuestra historia</h3></br>
+        <p class="text-justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Las instituciones debido a los diversos cambios en el proceso de desarrolló en el área de transporté
+           a nivel de asistencia  son estipuladas como  sistemas de gran relevancia para el país desde el 
+           contexto del bienestar para el ciudadano común, cabe destacar que en la actualidad, nos encontramos 
+           con una nueva cara o contexto de trabajo siendo que existen nuevas políticas que llegan a favorecer 
+           el servicio al individuo más específicamente en lo respecta a el marco del proceso de gestión  
+           vehicular o de unidades de transporté. Partiendo de lo antes mencionado tomando el caso del Fondo Socialista de Asistencia al Transportista 
+          “FONSATSIR” que fue fundado en el año 2009 como servicio al sector de las líneas vecinales y trasporte 
+          público esto ocurrido durante el mandato de Carlos Hernández. Contando con un equipo humano de 
+          reconocida experiencia y nivel profesional lo que lleva a conformar una excelente fuerza de trabajo.
+      .</p>
+      </div>
+
+    </div>
+  </div>
+
+<section class="py-6">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 mx-auto text-center pb-4">
+        <h4 class="text-gradient text-primary">Conócenos</h4>
+        <h2>Puede ubicarnos en</h2>
+        <p class="lead">En el Tigre, Estado Anzoátegui</br> 
+        Calle la florida Sector Pueblo Ajuro</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="p-3 text-center">
+          <div class="icon icon-shape bg-gradient-primary shadow mx-auto">
+            <i class="ni ni-single-02"></i>
+          </div>
+          <h5 class="mt-4">Comunicación Clara</h5>
+          <p>Transparente al momento de interactuar con nuestros clientes.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="p-3 text-center">
+          <div class="icon icon-shape bg-gradient-info shadow mx-auto">
+            <i class="ni ni-email-83"></i>
+          </div>
+          <h5 class="mt-4">Atención al cliente</h5>
+          <p>Brindando siempre una atención de calidad y personalizada.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mx-md-auto">
+        <div class="p-3 text-center">
+          <div class="icon icon-shape bg-gradient-warning shadow mx-auto">
+            <i class="ni ni-atom"></i>
+          </div>
+          <h5 class="mt-4">Abiertos a recomendaciones</h5>
+          <p>Siempre aceptando sugerencias, para mejorar nuestro servicio.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- -------- END Features w/ title and 3 infos -------- -->
+  <!-- END Section with four info areas left & one card right with image and waves -->
+  <!-- -------- START Features w/ pattern background & stats & rocket -------- -->
+  <section class="pt-sm-4 pb-5 position-relative bg-gradient-dark">
+    <div class="position-absolute w-100 z-inde-1 top-0 mt-n3">
+      <svg width="100%" viewBox="0 -2 1920 157" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>wave-down</title>
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <g fill="#FFFFFF" fill-rule="nonzero">
+            <g id="wave-down">
+              <path d="M0,60.8320331 C299.333333,115.127115 618.333333,111.165365 959,47.8320321 C1299.66667,-15.5013009 1620.66667,-15.2062179 1920,47.8320331 L1920,156.389409 L0,156.389409 L0,60.8320331 Z" id="Path-Copy-2" transform="translate(960.000000, 78.416017) rotate(180.000000) translate(-960.000000, -78.416017) "></path>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </div>
+    <div class="container">
+      <div class="row">
+          <div class="col-md-6 m-auto">
+            <h4 class="text-light text-bold">Se el primero en recibir nuestras novedades</h4>
+            <p class="mb-4 text-secondary text-justify">
+              Para siempre estar al día en los últimos servicios de mantenimiento ara automóviles qu ofrecemos en
+              FONSATSIR, puede subcribirse mediante su dirección de correo.
+            </p>
+            <div class="row">
+                <div class="col-8">
+                  <div class="input-group">
+                      <input type="text" class="form-control mb-sm-0" placeholder="Ingrese su correo">
+                  </div>
+                </div>
+                <div class="col-4 ps-0">
+                  <button type="button" class="btn bg-gradient-info mb-0 h-100 position-relative z-index-2">Subscribirse</button>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-5 ms-auto py-6">
+            <div class="position-relative">
+                <img class="max-width-50 w-100 position-relative z-index-2" src="assets/img/illustrations/sign-up.png" alt="image">
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="position-absolute w-100 bottom-0 mn-n1">
+      <svg width="105%" viewBox="0 -1 1920 166" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>wave-up</title>
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <g transform="translate(0.000000, 5.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="wave-up" transform="translate(0.000000, -5.000000)">
+              <path d="M0,70 C298.666667,105.333333 618.666667,95 960,39 C1301.33333,-17 1621.33333,-11.3333333 1920,56 L1920,165 L0,165 L0,70 Z" ></path>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </div>
+  </section>
+  
+  <!-- -------- END Features w/ pattern background & stats & rocket -------- -->
+
+  
+  <!-- -------- END PRE-FOOTER 1 w/ SUBSCRIBE BUTTON AND IMAGE ------- -->
+  <!-- -------- START FOOTER 3 w/ COMPANY DESCRIPTION WITH LINKS & SOCIAL ICONS & COPYRIGHT ------- -->
+  <footer class="footer py-5">
+  <div class="container">
+      <div class="row">
+      <div class="col-lg-8 mb-4 mx-auto text-center">
+          <a href="./index.html" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
+          Inicio
+          </a>
+          <a href="./nosotros.html" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
+          Nosotros
+          </a>
+          <a href="./contacto.html" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
+          Contacto
+          </a>
+      </div>
+      <div class="row">
+      <div class="col text-center">
+          <p class="mb-0 text-secondary">
+          Copyright © <script>document.write(new Date().getFullYear())</script> FONSATSIR.
+          </p>
+      </div>
+      </div>
+  </div>
+</footer>
+  <script>
+    if (document.getElementsByClassName('page-header')) {
+      window.addEventListener('scroll', function() {
+        var scrollPosition = window.pageYOffset;
+        var bgParallax = document.querySelector('.page-header');
+        var limit = bgParallax.offsetTop + bgParallax.offsetHeight;
+        if (scrollPosition > bgParallax.offsetTop && scrollPosition <= limit) {
+          bgParallax.style.backgroundPositionY = (50 - 10 * scrollPosition / limit * 3) + '%';
+        } else {
+          bgParallax.style.backgroundPositionY = '50%';
+        }
+      });
+    }
+  </script>
+</body>
+
+</html>
