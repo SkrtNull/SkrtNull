@@ -1,0 +1,36 @@
+@import "base.css";
+@import "loading.css";
+
+@import "fade/fade.css";
+@import "fade/fade-up.css";
+@import "fade/fade-up-sm.css";
+@import "fade/fade-up-lg.html";
+@import "fade/fade-down.html";
+@import "fade/fade-down-sm.html";
+@import "fade/fade-down-lg.html";
+@import "fade/fade-left.html";
+@import "fade/fade-left-sm.html";
+@import "fade/fade-left-lg.html";
+@import "fade/fade-right.html";
+@import "fade/fade-right-sm.html";
+@import "fade/fade-right-lg.html";
+
+@import "rotate/rotate.html";
+@import "rotate/rotate-sm.html";
+@import "rotate/rotate-lg.html";
+
+@import "flip/flip-x.html";
+@import "flip/flip-x-nr.html";
+@import "flip/flip-x-fr.html";
+@import "flip/flip-y.html";
+@import "flip/flip-y-nr.html";
+@import "flip/flip-y-fr.html";
+
+@import "zoom/zoom.html";
+@import "zoom/zoom-sm.html";
+@import "zoom/zoom-lg.html";
+
+@import "overlay/overlay-slide-top.html";
+@import "overlay/overlay-slide-bottom.html";
+@import "overlay/overlay-slide-left.html";
+@import "overlay/overlay-slide-right.html";
