@@ -1,0 +1,86 @@
+.video-bg {
+  position: relative;
+  width: 100%;
+  padding: 5vw;
+  overflow: hidden;
+}
+
+.video-bg video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  object-fit: cover;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  /* Para centrar verticalmente */
+  color: white;
+  backdrop-filter: blur(2px);
+  /* Otro efecto visual elegante */
+}
+
+.bg-header {
+  height: 60vh;
+}
+
+.text-services {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+
+.btn-facebook {
+  background-color: #1877f3;
+  color: #fff;
+  transition: background 0.3s;
+}
+
+.btn-facebook:hover {
+  background-color: #145db2;
+  color: #fff;
+}
+
+.btn-instagram {
+  background-color: #E4405F;
+  color: #fff;
+  transition: background 0.3s;
+}
+
+.btn-instagram:hover {
+  background-color: #b82d4a;
+  color: #fff;
+}
+
+.blur {
+  backdrop-filter: blur(5px);
+}
+
+/* Sombrea el fondo del header */
+.bg-header-dark {
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-header-dark::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.5); /* 50% oscuro, ajusta el valor si quieres más o menos sombra */
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Asegura que el contenido esté por encima del overlay */
+.bg-header-dark > * {
+  position: relative;
+  z-index: 2;
+}
