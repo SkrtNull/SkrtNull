@@ -32,4 +32,4 @@ Un framework modular en Python diseñado para estandarizar y limpiar datasets de
 ---
 
 ## 📫 Contacto
-- [LinkedIn](https://www.linkedin.com/in/jonaiker-millan)
+- [LinkedIn](https://www.linkedin.com/in/jonaiker-dataengineer/)
