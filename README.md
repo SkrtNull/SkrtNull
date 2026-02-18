@@ -21,7 +21,7 @@ Un framework modular en Python diseñado para estandarizar y limpiar datasets de
 - **Eficiencia:** Reducción de código repetitivo en pipelines de datos.
 
 🔗 [Explorar DataToolBox](https://github.com/SkrtNull/DataToolBox)
-🔗 **[Ver mi Portafolio Web](https://skrtnull.github.io/)**
+🔗 **[Ver mi Portafolio Web](https://skrtnull.github.io/SkrtNull/#page1)**
 ---
 
 ## 🎯 Enfoque Actual
