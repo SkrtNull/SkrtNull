@@ -47,9 +47,12 @@
           <a href="#page4">Proyectos</a>
         </li>
         <li  data-menuanchor="page5">
-          <a href="#page5">Resumen</a>
+          <a href="#page5">Aplicaciones</a>
         </li>
         <li  data-menuanchor="page6">
+          <a href="#page6">Resumen</a>
+        </li>
+        <li  data-menuanchor="page7">
           <a href="#page6">Contacto</a>
         </li>
       </ul>
@@ -252,7 +255,7 @@
                       <div class="row">
                         <div class="col-md-12">
                           <div class="project-row">
-                            <a class="active" href="./demos/SaversTS+/index.html" target="_blank">
+                            <a class="active" href="https://github.com/SkrtNull/DataToolBox" target="_blank">
                               <span class="project-number">00</span>
                               <h2 class="project-title">DataToolBox</h2>
                               <div class="project-category">Toolkit modular para la automatización de limpieza de datos y estandarización de registros masivos.</div>
@@ -313,10 +316,10 @@
                             <div class="partner-inner"><img alt="" src="images/partners/2.png"></div>
                           </div>
                           <div class="col-sm-6 col-md-4 col-xl-3 col-partner">
-                            <div class="partner-inner"><img alt="" src="images/partners/4.png"></div>
+                            <div class="partner-inner"><img alt="" src="images/partners/3.png"></div>
                           </div>
                           <div class="col-sm-6 col-md-4 col-xl-3 col-partner">
-                            <div class="partner-inner"><img alt="" src="images/partners/5.png"></div>
+                            <div class="partner-inner"><img alt="" src="images/partners/4.png"></div>
                           </div>
                         </div>
                       </div>
@@ -330,47 +333,59 @@
       </div>
       <div data-anchor="page6" class="pp-scrollable text-white section section-6">
         <div class="scroll-wrap">
-          <div class="section-bg mask" style="background-image:url(images/bg/resume.jpg);"></div>
-          <div class="scrollable-content">
-            <div class="vertical-title d-none d-lg-block"><span>Resumen</span></div>
+          
+          <div class="video-background-container" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; pointer-events: none; overflow: hidden;">
+            <video autoplay muted loop playsinline id="bg-video" style="width: 100%; height: 100%; object-fit: cover;">
+              <source src="images/DataToolBox.mp4" type="video/mp4">
+            </video>
+            <div class="bg-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(30, 0, 8, 0.8) 20%, rgba(0, 0, 0, 0) 100%);"></div>
+          </div>
+
+          <div class="scrollable-content" style="position: relative; z-index: 10;">
+            <div class="vertical-title-front d-none d-lg-block">
+              <span>EVOLUCION</span>
+            </div>
             <div class="vertical-centred">
               <div class="boxed boxed-inner">
-                <div class="boxed">
-                  <div class="container">
-                    <div class="intro">
-                      <div class="row row-resume">
-                        <div class="col-md-6 fadeY fadeY-1">
-                          <h2 class="resume-header title">Educacion</h2>
-                          <div class="col-resume">
-                            <div class="resume-content">
-                              <div class="resume-inner">
-                                <div class="resume-row">
-                                  <h6 class="resume-type">Ingeniero en Informatica</h6>
-                                  <i class="resume-study">Universidad Politecnica Territorial Jose Antonio Anzoategui<br>2018 - 2023</i>
-                                  <p class="resume-text">Graduado como Ingeniero en Sistemas, con sólidos conocimientos en desarrollo de software, bases de datos, redes y gestión de proyectos tecnológicos. Formación orientada a la resolución de problemas y la innovación en el área informática.</p>
+                <div class="container">
+                  <div class="intro">
+                    <div class="row row-resume">
+                      <div class="col-md-6 fadeY fadeY-1">
+                        <h2 class="resume-header title">Formación</h2>
+                        <div class="col-resume">
+                          <div class="resume-content">
+                            <div class="resume-inner">
+                              <div class="resume-row">
+                                <h6 class="resume-type">Ingeniero en Informática</h6>
+                                <i class="resume-study">UPTJAA | 2018 - 2023</i>
+                                <p class="resume-text">Base académica centrada en el desarrollo de software y gestión de datos.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 pt-md-5 mt-md-5 fadeY fadeY-2">
+                        <h2 class="resume-header title">Especialización</h2>
+                        <div class="col-resume">
+                          <div class="resume-content">
+                            <div class="resume-inner">
+                              <div class="resume-row">
+                                <h6 class="resume-type">Data Engineer & Automación</h6>
+                                <i class="resume-study">DataToolbox kit | 2025 - Actualidad</i>
+                                <p class="resume-text">Desarrollo de pipelines ETL y limpieza de datos "On Steroids".</p>
+                                <div class="mt-4">
+                                  <a href="https://github.com/SkrtNull/DataToolBox" class="btn btn-primary" target="_blank">
+                                    Ver DataToolbox
+                                  </a>
                                 </div>
                               </div>
                             </div>
                           </div>
                         </div>
-                        <div class="col-md-6 pt-md-5 mt-md-5 fadeY fadeY-2">
-                          <h2 class="resume-header title">Experiencia</h2>
-                          <div class="col-resume">
-                            <div class="resume-content">
-                              <div class="resume-inner">
-                                <div class="resume-row">
-                                  <h6 class="resume-type">Desarrollador Web Full Stack</h6>
-                                  <i class="resume-study">Proyectos por comision / Proyectos independientes<br>2023 - Actualidad</i>
-                                  <p class="resume-text">Con experiencia en la creación de sitios web y aplicaciones a medida utilizando PHP, JavaScript, MySQL y tecnologías modernas. Tambien, con conocimiento especializado en la implementacion de soluciones tecnológicas para pequeñas empresas, incluyendo automatización de procesos, soporte técnico y mantenimiento de sistemas.</p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                       </div>
-                    </div>
-                  </div>
-                </div>
+                      </div>
+                    </div> 
+                  </div> 
+                </div> 
               </div>
             </div>
           </div>
@@ -393,6 +408,7 @@
                             <h3><a class="mail" href="mailto:contact@ramsay.com"> jonmil123456@gmail.com</a></h3>
                             <h3><span class="phone">+58 424-8993717</span></h3>
                             <h3>
+                              <button class="btn btn-success" onclick="window.open('https://www.linkedin.com/in/jonaiker-dataengineer/')">Linkedin</button>
                               <button class="btn btn-success" onclick="window.open('https:wa.link/q7xlv2', '_blank')">WhatsApp</button>
                             </h3>
                           </section>
