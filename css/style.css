@@ -2193,3 +2193,94 @@ a.brand:focus{
   z-index: 1;
   pointer-events: none;
 }
+
+
+.section-6 .scroll-wrap {
+    position: relative;
+    overflow: hidden;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Se coloca detrás del contenido */
+}
+
+#bg-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Clave: hace que el video actúe como background-size: cover */
+}
+
+.bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.section-6 .scrollable-content {
+    position: relative;
+    z-index: 2; /* Asegura que el texto esté sobre el video y el overlay */
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; /* Bajamos el nivel */
+    pointer-events: none; /* <--- CLAVE: Permite que los clics pasen a través del video */
+}
+
+/* Asegúrate de que el contenido de la sección esté por encima y sea interactuable */
+.section-6 .scrollable-content {
+    position: relative;
+    z-index: 10; 
+    pointer-events: auto; /* Permite scroll y clics en botones como el de DataToolbox */
+}
+
+.section-6 {
+    touch-action: initial !important; /* Ayuda en dispositivos móviles */
+}
+
+/* Versión para que el texto resalte por encima del video */
+.vertical-title-front {
+  position: absolute;
+  text-align: center;
+  font-weight: 700; /* Un poco más de peso */
+  opacity: 0.3 !important; /* Forzamos que no sea transparente */
+  font-size: 9rem;
+  top: 50%;
+  left: 8rem;
+  transform: translateY(-50%);
+  z-index: 15; /* Por encima del overlay y del video */
+  pointer-events: none; /* Para que no estorbe al clickear */
+}
+
+.vertical-title-front span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-90deg);
+  opacity: 0;
+  overflow: hidden;
+  transition: all 0.8s 0.4s ease-out; /* Animación un poco más suave */
+  white-space: nowrap;
+  letter-spacing: 2.5rem;
+  color: #ffffff; /* Blanco puro */
+  /* Sombra estratégica para separar del video */
+  text-shadow: 0 0 20px rgba(0,0,0,0.5); 
+}
+
+/* Cuando la sección está activa, disolvemos el espaciado */
+.section.active .vertical-title-front span {
+  letter-spacing: 1rem; /* Un poco de espacio para que se vea moderno */
+  opacity: 0.5; /* Aquí controlas qué tan fuerte se ve (0.5 es ideal) */
+}
